@@ -1,8 +1,8 @@
 ---
-- name: Replace VMware with OpenStack
+- name: Replace VMware with Red Hat Virtualization
   hosts: all
   tasks:
-    - name: Replace VMware with OpenStack
+    - name: Replace VMware with Red Hat Virtualization
       replace:
         path: /var/www/html/index.html
         regexp: VMware
