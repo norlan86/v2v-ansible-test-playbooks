@@ -4,6 +4,6 @@
   tasks:
     - name: Replace VMware with OpenStack
       replace:
-        path: /var/www/html/index.php
+        path: /var/www/html/index.html
         regexp: VMware
-        replace: OpenStack
+        replace: RedhatVirtualization
